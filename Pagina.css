@@ -1,0 +1,122 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+background-image: url('Free\ Vector\ _\ Gradient\ geometric\ design\ on\ dark\ background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.Tarefas{
+    color: rgb(255, 255, 255); margin-top: -470px; margin-left: 620px; font-family: monospace; font-size: 32px;
+} 
+
+.container{
+   width: 600px; height: 500px; border-radius: 25px; border: solid rgb(255, 255, 255); align-items: center; padding: 10px; margin-left: 425px; margin-top: 50px; background-color: darkslateblue;
+}
+
+#input {
+    border: none;
+    padding: 13px;
+    border-radius: 10px;
+    background: #e8e8e8;
+    transition: 0.3s;
+   }
+   
+   #input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    transition: 0.3s;
+   }
+   
+   button { 
+    width: auto;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900; align-items: center; padding: 10px;
+  }
+  
+  button:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  
+button:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  button:hover {
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+  }
+  
+  button:hover:before {
+    border-color: #ffffff;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  button:hover:after {
+    border-color: #000000;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+
+  .box{ left: 800px; top: 51px; border: solid 2px rgb(0, 0, 0) ; color: white;
+
+  }
+  
+  #input{
+    margin-left: 480px; margin-top: 50px;
+  }
+
+  #lista{
+    margin-left: 500px; padding: 10px;
+  }
+
+li span{ display: flex;
+    font-size: 25px; margin-top: 20px; left: 100px; font-family: serif; color: white;
+}
+
+li button{ border: solid 2px rgb(0, 0, 0) ;
+    left: 302px; top: -30px;  color: white;
+}
+
+ul{
+    color: rgb(255, 255, 255);
+}
+
+  
+
+   
